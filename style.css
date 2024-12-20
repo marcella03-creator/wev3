@@ -1,0 +1,449 @@
+.navbar {
+    background-image: url(IMG/d.jpg);
+    background-size: cover ;
+    background-position: center ;
+    background-repeat: no-repeat ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    padding: 10px 20px;
+    
+
+}
+.titulo{
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    position: absolute; 
+    top: 270px; /* Distancia desde la parte superior */ 
+    right: 380px; /* Distancia desde la derecha */ 
+    width: 280px; /* Ajusta el tamaño de la imagen */ 
+    height: 320px; /* Mantén la proporción de la imagen */
+}
+.cinema{
+    margin: 20px 0;
+    display: flex;
+    align-items: flex-start; /* Alinea los elementos al inicio del contenedor */
+    margin: 10px 0;
+    margin-right: 20%;
+    width: 170px;
+    height: 100px;
+    left: 40px;
+    
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:20px;
+    font-weight: 20px;
+    color: blanchedalmond;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    position: relative;
+}
+
+.nav-links li {
+    position: relative;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    transition: background 0.3s;
+}
+
+.imagen1{
+    margin-top: 10px;
+    margin-right: 100px;
+    width: 20px; /* Ajusta el tamaño de la imagen */ 
+    height: 20px; /* Mantén la proporción de la imagen */
+}
+#imagen3{
+   /* 
+    width: 400px;
+    border: 6px solid #f4f5f7;
+    border-radius: 40px;*/
+    margin: 20px 0;
+    display: flex;
+    align-items: flex-start; /* Alinea los elementos al inicio del contenedor */
+    margin: 10px 0;
+    margin-right: 20%;
+    width: 280px;
+    height: 350px;
+    left: 40px;
+    }
+.text{
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    width: 300px;
+    margin-left: 1px;
+}
+
+#imagen4{
+    margin: 20px 0;
+    display: flex;
+    align-items: flex-start; /* Alinea los elementos al inicio del contenedor */
+    margin: 10px 0;
+    margin-right: 20%;
+    width: 280px;
+    height: 340px;
+    left: 40px;
+}
+#imagen5{
+    position: absolute; 
+    top: 380px; /* Distancia desde la parte superior */ 
+    right: 380px; /* Distancia desde la derecha */ 
+    width: 280px; /* Ajusta el tamaño de la imagen */ 
+    height: 320px; /* Mantén la proporción de la imagen */
+  
+} 
+#imagen6{
+    position: absolute; 
+    top: 930px; /* Distancia desde la parte superior */ 
+    right: 380px; /* Distancia desde la derecha */ 
+    width: 280px; /* Ajusta el tamaño de la imagen */ 
+    height: 320px; /* Mantén la proporción de la imagen */
+}
+/*imagenes de cine*/
+#imagen7{
+    position: absolute; 
+    top: 400px; /* Distancia desde la parte superior */ 
+    right: 20px; /* Distancia desde la derecha */ 
+    width: 280px; /* Ajusta el tamaño de la imagen */ 
+    height: 290px; /* Mantén la proporción de la imagen */
+    border-radius: 200px;
+}
+#imagen8{
+    position: absolute; 
+    top: 590px; /* Distancia desde la parte superior */ 
+    right: 640px; /* Distancia desde la derecha */ 
+    width: 280px; /* Ajusta el tamaño de la imagen */ 
+    height: 290px; /* Mantén la proporción de la imagen */
+    border-radius: 200px;
+}
+#imagen9{
+    position: absolute; 
+    top: 940px; /* Distancia desde la parte superior */ 
+    right: 750px; /* Distancia desde la derecha */ 
+    width: 280px; /* Ajusta el tamaño de la imagen */ 
+    height: 290px; /* Mantén la proporción de la imagen */
+    border-radius: 200px;
+}
+#imagen10{
+    position: absolute; 
+    top: 1100px; /* Distancia desde la parte superior */ 
+    right: 30px; /* Distancia desde la derecha */ 
+    width: 280px; /* Ajusta el tamaño de la imagen */ 
+    height: 290px; /* Mantén la proporción de la imagen */
+    border-radius: 150px;
+}
+
+
+.text2{
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    width: 300px;
+    margin-left: 1px;
+}
+
+.text3{
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    position: absolute; 
+    top: 270px; /* Distancia desde la parte superior */ 
+    right: 380px; /* Distancia desde la derecha */ 
+    width: 280px; /* Ajusta el tamaño de la imagen */ 
+    height: 320px; /* Mantén la proporción de la imagen */
+}
+.text4{
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    position: absolute; 
+    top: 700px; /* Distancia desde la parte superior */ 
+    right: 380px; /* Distancia desde la derecha */ 
+    width: 290px; /* Ajusta el tamaño de la imagen */ 
+    height: 320px; /* Mantén la proporción de la imagen */
+}
+.text5{
+    color:rgb(7, 7, 7);
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    position: absolute; 
+    top: 775px; /* Distancia desde la parte superior */ 
+    right: 380px; /* Distancia desde la derecha */ 
+    width: 290px; /* Ajusta el tamaño de la imagen */ 
+    height: 320px; /* Mantén la proporción de la imagen */
+}
+
+
+.nav-links a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    color: #333;
+    list-style: none;
+    padding: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.submenu li a {
+    color: #333;
+    padding: 10px 15px;
+    display: block;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.submenu li a:hover {
+    background: #aeda38;
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+
+.dropdown:hover .submenu {
+    display: block;
+}
+.accion {
+    top: 5px;
+    right: 60px;
+}
+.carousel {
+    background-image: url(IMG/main-1.jpg);
+    background-size: cover ;
+    background-position: center ;
+    background-repeat: no-repeat ;
+    border-radius: 30px;
+    /*display: block;
+    margin-left: 40px;
+    margin-right: 40px;
+    justify-content: center;
+    overflow: hidden;
+    border: 6px solid #8853ac;
+    border-radius: 10px;
+    background-color: #58c7e9;*/
+}
+
+.carousel-item {
+    display: none;
+    text-align: center;
+    padding: 100px;
+}
+
+.carousel-item.active {
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-weight: bold;
+    display: block;
+    padding: 100px;
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(5, 5, 5, 0.5);
+    color: rgb(249, 248, 252);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+button.prev {
+    left: 10px;
+}
+
+button.next {
+    right: 10px;
+}
+@media (max-width:768px){
+    .carousel{
+        width: 100%;
+    }
+}
+#contenido-uno {
+    font-size: 25px;
+    background-image: url(IMG/c1..jpg);
+    background-size: cover ;
+    background-position: center ;
+    background-repeat: no-repeat ;
+    border-radius: 5px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+
+
+#contenido-dos {
+   font-family: Georgia, 'Times New Roman', Times, serif; 
+    background-image: url(IMG/iconos.webp);
+    background-size: cover ;
+    background-position: center ;
+    background-repeat: no-repeat ;
+    border-radius: 5px;
+
+
+}
+#uno{
+    margin: 20px 0;
+    display: flex;
+    align-items: flex-start; /* Alinea los elementos al inicio del contenedor */
+    margin: 10px 0;
+    margin-right: 20%;
+    margin-left: 20%;
+    width: 280px;
+    height: 340px;
+    left: 40px;
+}
+.e1{
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    position: absolute; 
+    top: 540px; /* Distancia desde la parte superior */ 
+    right: 1200px; /* Distancia desde la derecha */ 
+    width: 280px; /* Ajusta el tamaño de la imagen */ 
+    height: 320px; /* Mantén la proporción de la imagen */
+}
+#dos{
+    margin: 20px 0;
+    display: flex;
+    align-items: flex-start; /* Alinea los elementos al inicio del contenedor */
+    margin: 10px 0;
+    margin-right: 20%;
+    width: 280px;
+    height: 340px;
+    left: 40px;
+}
+#tres{
+    margin: 20px 0;
+    display: flex;
+    align-items: flex-start; /* Alinea los elementos al inicio del contenedor */
+    margin: 10px 0;
+    margin-right: 20%;
+    width: 280px;
+    height: 340px;
+    left: 40px;
+}
+.e3{
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    position: absolute; 
+    top: 800px; /* Distancia desde la parte superior */ 
+    right: 1200px; /* Distancia desde la derecha */ 
+    width: 280px; /* Ajusta el tamaño de la imagen */ 
+    height: 320px; /* Mantén la proporción de la imagen */
+}
+#cuatro{
+    margin: 20px 0;
+    display: flex;
+    align-items: flex-start; /* Alinea los elementos al inicio del contenedor */
+    margin: 10px 0;
+    margin-right: 20%;
+    width: 280px;
+    height: 340px;
+    left: 40px;
+}
+#cinco{
+    margin: 20px 0;
+    display: flex;
+    align-items: flex-start; /* Alinea los elementos al inicio del contenedor */
+    margin: 10px 0;
+    margin-right: 20%;
+    width: 280px;
+    height: 340px;
+    left: 40px;
+}
+#seis{
+    margin: 20px 0;
+    display: flex;
+    align-items: flex-start; /* Alinea los elementos al inicio del contenedor */
+    margin: 10px 0;
+    margin-right: 20%;
+    width: 280px;
+    height: 340px;
+    left: 40px; 
+
+}
+#siete{
+    margin: 20px 0;
+    display: flex;
+    align-items: flex-start; /* Alinea los elementos al inicio del contenedor */
+    margin: 10px 0;
+    margin-right: 20%;
+    width: 280px;
+    height: 340px;
+    left: 40px;
+}
+#ocho{
+    margin: 20px 0;
+    display: flex;
+    align-items: flex-start; /* Alinea los elementos al inicio del contenedor */
+    margin: 10px 0;
+    margin-right: 20%;
+    width: 280px;
+    height: 340px;
+    left: 40px;
+}
+#nueve{
+    margin: 20px 0;
+    display: flex;
+    align-items: flex-start; /* Alinea los elementos al inicio del contenedor */
+    margin: 10px 0;
+    margin-right: 20%;
+    width: 280px;
+    height: 340px;
+    left: 40px;
+}
+#diez{
+    margin: 20px 0;
+    display: flex;
+    align-items: flex-start; /* Alinea los elementos al inicio del contenedor */
+    margin: 10px 0;
+    margin-right: 20%;
+    width: 280px;
+    height: 340px;
+    left: 40px;
+}
+#once{
+    margin: 20px 0;
+    display: flex;
+    align-items: flex-start; /* Alinea los elementos al inicio del contenedor */
+    margin: 10px 0;
+    margin-right: 20%;
+    width: 280px;
+    height: 340px;
+    left: 40px;
+}
+#doce{
+    margin: 20px 0;
+    display: flex;
+    align-items: flex-start; /* Alinea los elementos al inicio del contenedor */
+    margin: 10px 0;
+    margin-right: 20%;
+    width: 280px;
+    height: 340px;
+    left: 40px;
+}
+/*
+.actors{
+   
+    display: flex;
+    margin-left: 1%;
+    width: 280px;
+    height: 340px;
+    
+}*/
+
+
+#contenido-tres {
+    font-size: 70px;
+}
